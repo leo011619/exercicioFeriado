@@ -1,3 +1,7 @@
+:root{
+    --primaria:rgb(67, 67, 247)
+}
+
 * {
     box-sizing: border-box;
     font-size: 16px;
@@ -7,11 +11,13 @@
 }
 
 header {
+    position: fixed;
     border-bottom: 2px solid black;
-    padding: 5px;
+    padding: 20px;
+    width: 100%;
     display: block;
     margin-bottom: 10px;
-    background-color:rgb(67, 67, 247);
+    background-color: var(--primaria);
     color: white;
 }
 h2{
@@ -24,22 +30,22 @@ aside{
 }
 img {
     
-    width: 65vw;
+    width: 90vw;
     height: 65vh;
     border: 50px;
     padding: 30px;
 }
 .sobre{
-    background-color:rgb(67, 67, 247);
+    background-color: var(--primaria);
     color: white;
-    padding: 30px;
-    padding-bottom: 40px
+    padding: 50px;
+    padding-bottom: 60px
     ;
     
 }
 .contato{
     padding: 30px;
-    color: rgb(67, 67, 247);
+    color: var(--primaria);
 }
 
 span, a{
@@ -47,13 +53,20 @@ span, a{
    padding-right: 10px;
    padding-left: 10px;
 }
-span:hover{
+a:hover{
     color: navy;
-    background-color: #fff;
-    border-radius: 25%;
-    
-   
+    background-color:white;
+    border-radius: 0%;
 }
-form{
-   
+a{
+    color: white;
+    text-decoration: none;
+}
+input, label, textarea{
+    margin: 3px;
+}
+button{
+    float: right;
+    background-color:var(--primaria) ;
+    color: white;
 }
