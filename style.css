@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding:0;
+    scroll-behavior: smooth;
+}
+
+header {
+    border-bottom: 2px solid black;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    background-color:rgb(67, 67, 247);
+    color: white;
+}
+h2{
+    font-size: 20px;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img {
+    
+    width: 65vw;
+    height: 65vh;
+    border: 50px;
+    padding: 30px;
+}
+.sobre{
+    background-color:rgb(67, 67, 247);
+    color: white;
+    padding: 30px;
+    padding-bottom: 40px
+    ;
+    
+}
+.contato{
+    padding: 30px;
+    color: rgb(67, 67, 247);
+}
+
+span, a{
+   float: right;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+span:hover{
+    color: navy;
+    background-color: #fff;
+    border-radius: 25%;
+    
+   
+}
+form{
+   
+}
